@@ -1,0 +1,56 @@
+[
+ {
+   "playerId": 1,
+   "name": "Virat Kohli",
+   "country": "India",
+   "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/353000/353035.6.jpg",
+   "role": "Batsman",
+   "battingBowlingType": "Right-hand bat / Right-arm medium",
+   "biddingPrice": "2.0 million USD"
+ },
+ {
+   "playerId": 2,
+   "name": "Mitchell Starc",
+   "country": "Australia",
+   "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/353000/353035.6.jpg",
+   "role": "Bowler",
+   "battingBowlingType": "Left-hand bat / Left-arm fast",
+   "biddingPrice": "1.5 million USD"
+ },
+ {
+   "playerId": 3,
+   "name": "Ben Stokes",
+   "country": "England",
+   "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/353000/353035.6.jpg",
+   "role": "All-rounder",
+   "battingBowlingType": "Left-hand bat / Right-arm fast-medium",
+   "biddingPrice": "2.2 million USD"
+ },
+ {
+   "playerId": 4,
+   "name": "Babar Azam",
+   "country": "Pakistan",
+   "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/353000/353035.6.jpg",
+   "role": "Batsman",
+   "battingBowlingType": "Right-hand bat / Right-arm offbreak",
+   "biddingPrice": "1.8 million USD"
+ },
+ {
+   "playerId": 5,
+   "name": "Kane Williamson",
+   "country": "New Zealand",
+   "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/353000/353035.6.jpg",
+   "role": "Batsman",
+   "battingBowlingType": "Right-hand bat / Right-arm offbreak",
+   "biddingPrice": "1.9 million USD"
+ },
+ {
+   "playerId": 6,
+   "name": "Rashid Khan",
+   "country": "Afghanistan",
+   "image": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160,q_50/lsci/db/PICTURES/CMS/353000/353035.6.jpg",
+   "role": "Bowler",
+   "battingBowlingType": "Right-hand bat / Right-arm legbreak",
+   "biddingPrice": "1.6 million USD"
+ }
+]
