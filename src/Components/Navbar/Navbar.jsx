@@ -1,7 +1,9 @@
 import React from "react";
 import logo from "../../assets/logo.png";
 
-const Navbar = ({ balance}) => {
+
+const Navbar = ({ balance }) => {
+  
   return (
     <div className="navbar bg-base-100 ">
       <div className="flex-1 ">
@@ -66,11 +68,16 @@ const Navbar = ({ balance}) => {
       </div>
       <div className="">
         <button
-        
-         className="btn rounded-lg">
+          onClick={() => {
+            handleAddMoney();
+           
+          }}
+          className="btn rounded-lg"
+        >
           <span>{balance}</span>
           Coin
         </button>
+       
       </div>
     </div>
   );

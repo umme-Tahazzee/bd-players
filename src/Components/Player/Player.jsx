@@ -1,9 +1,25 @@
 import { IoFlag } from "react-icons/io5";
 import { CgProfile } from "react-icons/cg";
+import { ToastContainer, toast } from 'react-toastify';
+import { useState } from "react";
+import 'react-toastify/dist/ReactToastify.css'; // make sure this is included
 
-const Player = ({ player }) => {
-  const { playerId, name, country, image, battingBowlingType, biddingPrice } =
-    player;
+
+const Player = ({ player, balance }) => {
+  const { playerId, name, country, image, battingBowlingType, biddingPrice } = player;
+  const [isPlayerAdded, setIsPlayerAdded] = useState(false)
+
+   const handlePlayers = () => {
+    if (balance <= 0) {
+      toast.warn("Please add balance first!");
+    } else if (!isPlayerAdded) {
+      setIsPlayerAdded(true);
+      toast.success("Player added successfully!");
+    } else {
+      toast.error("Failed to add player. Player already added.");
+    }
+   }
+
   return (
     <div>
       {/* cards start */}
@@ -37,7 +53,9 @@ const Player = ({ player }) => {
           </div>
           <div className="flex justify-between">
           <p><small>Price: $1500000</small></p>
-          <button className="px-2 rounded-md
+          <button 
+           onClick={handlePlayers}
+           className="px-2 rounded-md
            text-slate-500 bg-gray-300">
             <small> Choose Player</small>
           </button>

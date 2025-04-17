@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Player from '../Player/Player'
 
-const Players = () => {
+const Players = ({balance}) => {
  const [players, setPlayers] = useState([]);
 
    useEffect(()=>{
@@ -26,7 +26,7 @@ const Players = () => {
     {/* player section  */}
      <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-10'>
          {
-           players.map(player=> <Player player={player} /> )
+           players.map(player=> <Player player={player} balance={balance} /> )
          }
      </div>
 
